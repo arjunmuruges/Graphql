@@ -1,0 +1,14 @@
+{
+ products(filter: { sku: { eq:"6297001254035	"} }) {
+    total_count
+    items {
+  
+      name
+    
+      sku
+      saleableqty
+   
+ }}}
+ 
+*in graphql we should add header like which store and store code
+ 
